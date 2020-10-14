@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.google.ar.core.arfoundation.extensions": {
+      "version": "file:/Users/dilmer/code/Install/arcore-unity-extensions-1.20.0/package",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.0-preview.5",
+        "com.unity.xr.arcore": "4.1.0-preview.5"
+      }
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -9,6 +18,13 @@
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -108,38 +124,39 @@
       }
     },
     "com.unity.xr.arcore": {
-      "version": "4.0.8",
+      "version": "4.1.0-preview.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.0.8",
+        "com.unity.xr.arsubsystems": "4.1.0-preview.5",
         "com.unity.xr.management": "3.2.13",
         "com.unity.modules.androidjni": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
-      "version": "4.0.8",
+      "version": "4.1.0-preview.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.0.8",
+        "com.unity.xr.arsubsystems": "4.1.0-preview.5",
         "com.unity.xr.management": "3.2.13"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arkit": {
-      "version": "4.0.8",
+      "version": "4.1.0-preview.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.0.8",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.xr.arsubsystems": "4.1.0-preview.5",
         "com.unity.xr.management": "3.2.13"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arsubsystems": {
-      "version": "4.0.8",
+      "version": "4.1.0-preview.5",
       "depth": 1,
       "source": "registry",
       "dependencies": {

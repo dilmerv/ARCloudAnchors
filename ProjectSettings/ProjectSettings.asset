@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Dilmer Games LLC
-  productName: ARDraw
+  productName: ARCloudAnchors
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -126,8 +126,7 @@ PlayerSettings:
     Others: 1
   bundleVersion: 1.0.0
   preloadedAssets:
-  - {fileID: 4800000, guid: e7c77f6eaab324a819efdc13b8125a39, type: 3}
-  - {fileID: 3897142076832633394, guid: 92ecd2e551c304604a0d2d16a523c356, type: 2}
+  - {fileID: 11400000, guid: fd295549caf494aefbef1e378b7e5366, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -171,7 +170,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.dilmergames.ardraw
-    iPhone: com.dilmergames.ardraw
+    iPhone: com.dilmergames.arcloudanchors
   buildNumber:
     iPhone: 1.0.0
   AndroidBundleVersionCode: 1
@@ -190,7 +189,7 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 11.0
+  iOSTargetOSVersionString: 12.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 10.0
@@ -586,7 +585,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    4: UNITY_XR_ARKIT_LOADER_ENABLED;ARCORE_EXTENSIONS_IOS_SUPPORT
   platformArchitecture:
     iPhone: 1
   scriptingBackend:
@@ -602,6 +602,7 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform:
     Standalone: 3
     WebGL: 3
+    iPhone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template_Lightweight
